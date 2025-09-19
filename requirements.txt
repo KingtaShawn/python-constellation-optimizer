@@ -1,4 +1,27 @@
-tensorflow>=2.10.0
-sionna>=0.15.0
+# Python Constellation Optimizer - 依赖包列表
+
+# 核心依赖
+tensorflow>=2.8.0
 numpy>=1.21.0
 matplotlib>=3.5.0
+pillow>=9.0.0
+
+# Sionna通信框架
+# 注意：Sionna需要TensorFlow支持
+# 如果直接pip安装失败，请参考官方文档：https://nvlabs.github.io/sionna/installation.html
+pip install sionna
+
+# 工具包
+tqdm>=4.64.0  # 进度条显示
+glob2>=0.7    # 文件查找
+
+# 可选依赖
+sciPy>=1.8.0  # 科学计算工具
+scikit-learn>=1.0.0  # 机器学习算法库
+plotly>=5.6.0  # 交互式可视化
+seaborn>=0.11.2  # 统计数据可视化
+
+# 开发依赖
+black>=22.0.0  # 代码格式化
+pylint>=2.13.0  # 代码质量检查
+pytest>=7.0.0  # 单元测试
