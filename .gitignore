@@ -1,0 +1,81 @@
+# 虚拟环境
+venv/
+venv_new/
+env/
+
+# IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 测试和覆盖率
+coverage/
+.tox/
+.pytest_cache/
+
+# 构建和分发
+build/
+dist/
+*.egg-info/
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# 数据文件
+*.csv
+*.xlsx
+*.json
+*.h5
+*.pickle
+*.pkl
+
+# 图像文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# 可执行文件
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 其他
+*.ipynb_checkpoints/
+*.bak
+*.orig
+*.rej
+
+# 特定于项目的临时文件
+weights-neural-demapper/
+*.weights
+trained_constellation_model.h5
+constellation_*.png
+ber_comparison.png
+training_loss.png
